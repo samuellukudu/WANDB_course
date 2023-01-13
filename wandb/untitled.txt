@@ -1,0 +1,17 @@
+This is a trial of github pages. 
+I don't have a blog and I hope to make this my blog.
+See you soon
+
+
+personal token: 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
+
+git push https://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@github.com/samuellukudu/first-contributions.git
+
+
+
+
+WDB login api
+3bae19b6b27838febec018298a8b5c99cea8fa31
+
+OAI api
+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

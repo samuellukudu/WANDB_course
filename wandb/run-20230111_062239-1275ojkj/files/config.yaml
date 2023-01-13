@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: fastai
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.9.9
+    start_time: 1673418165
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 15
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      2:
+      - 1
+      - 4
+      - 5
+      - 15
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      3:
+      - 2
+      4: 3.9.9
+      5: 0.12.21
+      8:
+      - 1
+      - 2
+      - 5

@@ -1,0 +1,210 @@
+2022-12-29 07:23:56,903 INFO    MainThread:105 [wandb_setup.py:_flush():76] Configure stats pid to 105
+2022-12-29 07:23:56,903 INFO    MainThread:105 [wandb_setup.py:_flush():76] Loading settings from /home/studio-lab-user/.config/wandb/settings
+2022-12-29 07:23:56,904 INFO    MainThread:105 [wandb_setup.py:_flush():76] Loading settings from /home/studio-lab-user/WANDB_course/wandb/settings
+2022-12-29 07:23:56,904 INFO    MainThread:105 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-12-29 07:23:56,904 INFO    MainThread:105 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-12-29 07:23:56,904 INFO    MainThread:105 [wandb_init.py:_log_setup():461] Logging user logs to /home/studio-lab-user/WANDB_course/wandb/run-20221229_072356-1w51denu/logs/debug.log
+2022-12-29 07:23:56,904 INFO    MainThread:105 [wandb_init.py:_log_setup():462] Logging internal logs to /home/studio-lab-user/WANDB_course/wandb/run-20221229_072356-1w51denu/logs/debug-internal.log
+2022-12-29 07:23:56,905 INFO    MainThread:105 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f04ff581df0>
+2022-12-29 07:23:56,907 INFO    MainThread:105 [wandb_init.py:init():495] calling init triggers
+2022-12-29 07:23:56,908 INFO    MainThread:105 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-12-29 07:23:56,908 INFO    MainThread:105 [wandb_init.py:init():548] starting backend
+2022-12-29 07:23:56,908 INFO    MainThread:105 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-12-29 07:23:56,927 INFO    MainThread:105 [backend.py:ensure_launched():217] starting backend process...
+2022-12-29 07:23:56,936 INFO    MainThread:105 [backend.py:ensure_launched():222] started backend process with pid: 138
+2022-12-29 07:23:56,938 INFO    MainThread:105 [wandb_init.py:init():558] backend started and connected
+2022-12-29 07:23:56,974 INFO    MainThread:105 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-12-29 07:23:56,974 INFO    MainThread:105 [wandb_run.py:_label_probe_notebook():1094] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-12-29 07:23:56,974 INFO    MainThread:105 [wandb_init.py:init():634] updated telemetry
+2022-12-29 07:23:57,006 INFO    MainThread:105 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-12-29 07:23:58,244 INFO    MainThread:105 [wandb_run.py:_on_init():1919] communicating current version
+2022-12-29 07:23:58,398 INFO    MainThread:105 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.13.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-12-29 07:23:58,398 INFO    MainThread:105 [wandb_init.py:init():700] starting run threads in backend
+2022-12-29 07:24:03,442 INFO    MainThread:105 [wandb_run.py:_console_start():1893] atexit reg
+2022-12-29 07:24:03,442 INFO    MainThread:105 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.WRAP
+2022-12-29 07:24:03,443 INFO    MainThread:105 [wandb_run.py:_redirect():1803] Wrapping output streams.
+2022-12-29 07:24:03,445 INFO    MainThread:105 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-12-29 07:24:03,446 INFO    MainThread:105 [wandb_init.py:init():732] run started, returning control to user process
+2022-12-29 07:24:03,448 INFO    MainThread:105 [wandb_init.py:_pause_backend():374] pausing backend
+2022-12-29 07:24:03,448 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:24:03,455 INFO    MainThread:105 [wandb_init.py:_resume_backend():383] resuming backend
+2022-12-29 07:24:03,475 INFO    MainThread:105 [wandb_init.py:_pause_backend():374] pausing backend
+2022-12-29 07:24:03,475 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:24:03,482 INFO    MainThread:105 [wandb_init.py:_resume_backend():383] resuming backend
+2022-12-29 07:24:04,613 INFO    MainThread:105 [wandb_init.py:_pause_backend():374] pausing backend
+2022-12-29 07:24:04,613 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:24:04,626 INFO    MainThread:105 [wandb_init.py:_resume_backend():383] resuming backend
+2022-12-29 07:24:04,635 INFO    MainThread:105 [wandb_init.py:_pause_backend():374] pausing backend
+2022-12-29 07:24:04,635 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:24:04,640 INFO    MainThread:105 [wandb_init.py:_resume_backend():383] resuming backend
+2022-12-29 07:32:11,093 INFO    MainThread:105 [wandb_init.py:_pause_backend():374] pausing backend
+2022-12-29 07:32:11,093 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:32:11,099 INFO    MainThread:105 [wandb_init.py:_resume_backend():383] resuming backend
+2022-12-29 07:32:24,056 INFO    MainThread:105 [wandb_init.py:_pause_backend():374] pausing backend
+2022-12-29 07:32:24,057 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:32:24,063 INFO    MainThread:105 [wandb_init.py:_resume_backend():383] resuming backend
+2022-12-29 07:32:24,647 INFO    MainThread:105 [wandb_run.py:_finish():1680] finishing run samu2505/mlops-course-001/1w51denu
+2022-12-29 07:32:24,649 INFO    MainThread:105 [jupyter.py:save_history():435] not saving jupyter history
+2022-12-29 07:32:24,649 INFO    MainThread:105 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-12-29 07:32:24,649 INFO    MainThread:105 [wandb_init.py:_jupyter_teardown():393] cleaning up jupyter logic
+2022-12-29 07:32:24,649 INFO    MainThread:105 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-12-29 07:32:24,658 INFO    MainThread:105 [wandb_run.py:_restore():1834] restore
+2022-12-29 07:32:30,162 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:32:35,262 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:32:40,363 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:32:45,465 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:32:50,565 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:32:55,666 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:00,767 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:05,868 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:10,969 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:16,070 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:21,174 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:26,276 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:31,377 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:36,477 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:41,578 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:46,686 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:51,789 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:33:56,890 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:01,991 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:07,091 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:12,192 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:17,294 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:22,395 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:27,498 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:32,599 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:37,700 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:42,801 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:47,902 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:53,008 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:34:58,111 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:03,213 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:08,314 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:13,415 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:18,516 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:23,618 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:28,719 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:33,820 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:38,927 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:44,027 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:49,128 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:54,229 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:35:59,330 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:04,432 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:09,539 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:14,640 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:19,750 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:24,851 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:29,951 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:35,060 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:40,161 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:45,262 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:50,366 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:36:55,468 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:00,569 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:05,670 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:10,770 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:15,871 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:20,978 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:26,079 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:31,186 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:36,287 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:41,391 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:46,495 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:51,595 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:37:56,697 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:01,798 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:06,902 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:12,002 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:17,103 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:22,204 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:27,305 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:32,406 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:37,507 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:42,607 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:47,708 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:52,809 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:38:57,910 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:03,011 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:08,115 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:13,216 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:18,319 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:23,420 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:28,525 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:33,628 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:38,729 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:43,830 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:48,931 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:54,033 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:39:59,139 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:04,242 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:09,346 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:14,451 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:19,551 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:24,654 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:29,759 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:34,860 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:39,967 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:45,070 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:50,171 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:40:55,272 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:00,373 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:05,474 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:10,575 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:15,676 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:20,777 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:25,878 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:30,979 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:36,082 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:41,186 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:46,287 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:51,388 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:41:56,489 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:01,590 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:06,690 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:11,791 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:16,898 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:21,999 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:27,102 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:32,203 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:37,304 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:42,405 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:47,505 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:52,606 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:42:57,707 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:02,808 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:07,909 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:13,010 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:18,111 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:23,212 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:28,314 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:33,417 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:38,518 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:43,619 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:48,720 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:53,821 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:43:58,922 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:04,023 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:09,124 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:14,225 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:19,334 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:24,438 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:29,539 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:34,642 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:39,744 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:44,845 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:49,946 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:44:55,047 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:00,148 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:05,248 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:10,350 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:15,451 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:20,552 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:25,653 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:30,754 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:35,856 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:40,956 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-12-29 07:45:46,059 INFO    MainThread:105 [wandb_run.py:_on_finish():1991] got exit ret: None

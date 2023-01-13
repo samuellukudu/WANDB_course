@@ -1,0 +1,98 @@
+2022-12-29 07:46:11,947 INFO    MainThread:4331 [internal.py:wandb_internal():90] W&B internal server running at pid: 4331, started at: 2022-12-29 07:46:11.947103
+2022-12-29 07:46:11,952 INFO    WriterThread:4331 [datastore.py:open_for_write():75] open: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/run-2s9n1992.wandb
+2022-12-29 07:46:11,954 DEBUG   SenderThread:4331 [sender.py:send():236] send: header
+2022-12-29 07:46:11,956 DEBUG   SenderThread:4331 [sender.py:send():236] send: run
+2022-12-29 07:46:12,220 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: check_version
+2022-12-29 07:46:12,230 INFO    SenderThread:4331 [dir_watcher.py:__init__():216] watching files in: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files
+2022-12-29 07:46:12,231 INFO    SenderThread:4331 [sender.py:_start_run_threads():815] run started: 2s9n1992 with start time 1672299970
+2022-12-29 07:46:12,231 DEBUG   SenderThread:4331 [sender.py:send():236] send: summary
+2022-12-29 07:46:12,231 INFO    SenderThread:4331 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-12-29 07:46:12,231 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: check_version
+2022-12-29 07:46:12,461 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: run_start
+2022-12-29 07:46:12,463 DEBUG   HandlerThread:4331 [meta.py:__init__():35] meta init
+2022-12-29 07:46:12,463 DEBUG   HandlerThread:4331 [meta.py:__init__():49] meta init done
+2022-12-29 07:46:12,463 DEBUG   HandlerThread:4331 [meta.py:probe():209] probe
+2022-12-29 07:46:12,468 DEBUG   HandlerThread:4331 [meta.py:_setup_git():199] setup git
+2022-12-29 07:46:12,495 DEBUG   HandlerThread:4331 [meta.py:_setup_git():206] setup git done
+2022-12-29 07:46:12,496 DEBUG   HandlerThread:4331 [meta.py:_save_pip():53] save pip
+2022-12-29 07:46:12,497 DEBUG   HandlerThread:4331 [meta.py:_save_pip():67] save pip done
+2022-12-29 07:46:12,497 DEBUG   HandlerThread:4331 [meta.py:_save_conda():74] save conda
+2022-12-29 07:46:13,235 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_created():269] file/dir created: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/requirements.txt
+2022-12-29 07:46:13,235 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_created():269] file/dir created: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/conda-environment.yaml
+2022-12-29 07:46:13,236 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_created():269] file/dir created: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/wandb-summary.json
+2022-12-29 07:46:18,242 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_created():269] file/dir created: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/output.log
+2022-12-29 07:46:20,240 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/output.log
+2022-12-29 07:46:22,241 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/conda-environment.yaml
+2022-12-29 07:46:22,461 DEBUG   HandlerThread:4331 [meta.py:_save_conda():84] save conda done
+2022-12-29 07:46:22,461 DEBUG   HandlerThread:4331 [meta.py:probe():247] probe done
+2022-12-29 07:46:22,642 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:46:22,643 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:46:22,646 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: pause
+2022-12-29 07:46:22,646 INFO    HandlerThread:4331 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-12-29 07:46:22,653 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: resume
+2022-12-29 07:46:22,653 INFO    HandlerThread:4331 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-12-29 07:46:22,656 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: pause
+2022-12-29 07:46:22,656 INFO    HandlerThread:4331 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-12-29 07:46:22,658 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: resume
+2022-12-29 07:46:22,658 INFO    HandlerThread:4331 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-12-29 07:46:22,659 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: pause
+2022-12-29 07:46:22,659 INFO    HandlerThread:4331 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-12-29 07:46:22,662 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: resume
+2022-12-29 07:46:22,662 INFO    HandlerThread:4331 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-12-29 07:46:22,663 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: pause
+2022-12-29 07:46:22,664 INFO    HandlerThread:4331 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-12-29 07:46:22,667 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: resume
+2022-12-29 07:46:22,667 INFO    HandlerThread:4331 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-12-29 07:46:22,839 DEBUG   SenderThread:4331 [sender.py:send():236] send: telemetry
+2022-12-29 07:46:22,845 DEBUG   SenderThread:4331 [sender.py:send():236] send: files
+2022-12-29 07:46:22,847 INFO    SenderThread:4331 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-12-29 07:46:22,848 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:46:22,850 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:46:22,850 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:46:22,850 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:46:23,241 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_created():269] file/dir created: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/wandb-metadata.json
+2022-12-29 07:46:23,488 INFO    Thread-15 :4331 [upload_job.py:push():138] Uploaded file /tmp/tmpfi37owlpwandb/35nm4pye-wandb-metadata.json
+2022-12-29 07:46:37,500 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:46:37,506 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:46:43,259 INFO    Thread-7  :4331 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/config.yaml
+2022-12-29 07:46:50,857 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:46:52,736 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:46:52,737 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:47:08,059 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:47:08,059 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:47:20,986 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:47:23,315 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:47:23,316 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:47:38,530 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:47:38,531 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:47:51,166 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:47:53,761 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:47:53,766 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:48:04,053 WARNING MainThread:4331 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-12-29 07:48:04,563 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: pause
+2022-12-29 07:48:04,563 INFO    HandlerThread:4331 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-12-29 07:48:04,635 DEBUG   SenderThread:4331 [sender.py:send():236] send: stats
+2022-12-29 07:48:09,033 DEBUG   HandlerThread:4331 [handler.py:handle_request():140] handle_request: stop_status
+2022-12-29 07:48:09,033 DEBUG   SenderThread:4331 [sender.py:send_request():250] send_request: stop_status
+2022-12-29 07:48:09,796 WARNING MainThread:4331 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-12-29 07:48:09,796 ERROR   MainThread:4331 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-12-29 07:48:09,804 INFO    HandlerThread:4331 [handler.py:finish():806] shutting down handler
+2022-12-29 07:48:09,804 DEBUG   SenderThread:4331 [sender.py:send():236] send: telemetry
+2022-12-29 07:48:09,804 INFO    WriterThread:4331 [datastore.py:close():279] close: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/run-2s9n1992.wandb
+2022-12-29 07:48:09,805 INFO    SenderThread:4331 [sender.py:finish():1114] shutting down sender
+2022-12-29 07:48:09,805 INFO    SenderThread:4331 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-12-29 07:48:10,296 INFO    SenderThread:4331 [dir_watcher.py:finish():383] scan: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files
+2022-12-29 07:48:10,296 INFO    SenderThread:4331 [dir_watcher.py:finish():397] scan save: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/config.yaml config.yaml
+2022-12-29 07:48:10,296 INFO    SenderThread:4331 [dir_watcher.py:finish():397] scan save: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/wandb-summary.json wandb-summary.json
+2022-12-29 07:48:10,305 INFO    SenderThread:4331 [dir_watcher.py:finish():397] scan save: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/requirements.txt requirements.txt
+2022-12-29 07:48:10,306 INFO    SenderThread:4331 [dir_watcher.py:finish():397] scan save: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/conda-environment.yaml conda-environment.yaml
+2022-12-29 07:48:10,306 INFO    SenderThread:4331 [dir_watcher.py:finish():397] scan save: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/output.log output.log
+2022-12-29 07:48:10,306 INFO    SenderThread:4331 [dir_watcher.py:finish():397] scan save: /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/wandb-metadata.json wandb-metadata.json
+2022-12-29 07:48:10,306 INFO    SenderThread:4331 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-29 07:48:10,307 INFO    SenderThread:4331 [file_pusher.py:join():176] waiting for file pusher
+2022-12-29 07:48:12,295 INFO    Thread-19 :4331 [upload_job.py:push():138] Uploaded file /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/conda-environment.yaml
+2022-12-29 07:48:12,342 INFO    Thread-18 :4331 [upload_job.py:push():138] Uploaded file /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/requirements.txt
+2022-12-29 07:48:12,378 INFO    Thread-16 :4331 [upload_job.py:push():138] Uploaded file /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/config.yaml
+2022-12-29 07:48:12,390 INFO    Thread-17 :4331 [upload_job.py:push():138] Uploaded file /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/wandb-summary.json
+2022-12-29 07:48:22,752 INFO    Thread-20 :4331 [upload_job.py:push():138] Uploaded file /home/studio-lab-user/WANDB_course/wandb/run-20221229_074610-2s9n1992/files/output.log
+2022-12-29 07:48:23,405 INFO    MainThread:4331 [internal.py:handle_exit():80] Internal process exited
