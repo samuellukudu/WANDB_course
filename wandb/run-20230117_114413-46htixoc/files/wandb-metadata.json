@@ -1,0 +1,21 @@
+{
+    "os": "Linux-4.14.296-222.539.amzn2.x86_64-x86_64-with-glibc2.31",
+    "python": "3.9.9",
+    "heartbeatAt": "2023-01-17T11:44:15.154959",
+    "startedAt": "2023-01-17T11:44:13.347868",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/samuellukudu/WANDB_course.git",
+        "commit": "3426569ccdde7ba8019a1a19fb84afed1c89e509"
+    },
+    "email": "samuellukudu.sl20@gmail.com",
+    "root": "/home/studio-lab-user/WANDB_course",
+    "host": "default",
+    "username": "studio-lab-user",
+    "executable": "/home/studio-lab-user/.conda/envs/default/bin/python"
+}
